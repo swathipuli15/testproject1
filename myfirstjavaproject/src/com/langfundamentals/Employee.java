@@ -17,7 +17,7 @@ public class Employee {
 		System.out.println("Employee ID:" +employeeId);
 		System.out.println("Desigination:" +designation);
 		System.out.println("Department:" +department);
-		System.out.println("Salary" +salary);
+		System.out.println("Salary:" +salary);
 		System.out.println("location:" +location);
 	}
 	void promoteEmployee() {
