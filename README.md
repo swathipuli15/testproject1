@@ -1,0 +1,244 @@
+\# AcadPluse – Student Intelligence Administration
+
+
+
+\## 📌 Project Overview
+
+
+
+AcadPluse is a full-stack web application designed to simplify student and academic administration. It helps manage student details, departments, campus resources, bookings, equipment, and maintenance requests through a centralized system.
+
+
+
+The goal of AcadPluse is to improve administrative efficiency, organize academic information, and support effective campus resource management.
+
+
+
+\## 🎯 Objectives
+
+
+
+\- Manage student information.
+
+\- Maintain department details.
+
+\- Manage campus resources and their availability.
+
+\- Handle resource booking requests.
+
+\- Maintain equipment information and condition.
+
+\- Record and track maintenance requests.
+
+\- Store and manage application data using MySQL.
+
+
+
+\## 🛠️ Technologies Used
+
+
+
+\*\*Frontend\*\*
+
+\- React.js
+
+\- JavaScript
+
+\- HTML5
+
+\- CSS3
+
+\- Axios
+
+
+
+\*\*Backend\*\*
+
+\- Java
+
+\- Spring Boot
+
+\- Spring Data JPA
+
+\- Hibernate
+
+\- REST APIs
+
+
+
+\*\*Database\*\*
+
+\- MySQL
+
+
+
+\*\*Development Tools\*\*
+
+\- Eclipse IDE
+
+\- Visual Studio Code
+
+\- Git and GitHub
+
+\- Node.js and npm
+
+
+
+\## 📦 Main Modules
+
+
+
+1\. \*\*Student Management\*\* – Manage student details and academic information.
+
+2\. \*\*Department Management\*\* – Maintain department and department head details.
+
+3\. \*\*Resource Management\*\* – Manage campus resources, locations, and availability.
+
+4\. \*\*Booking Management\*\* – Manage resource bookings by date and time.
+
+5\. \*\*Equipment Management\*\* – Maintain equipment details, quantities, and condition.
+
+6\. \*\*Maintenance Management\*\* – Record and track campus maintenance requests.
+
+
+
+\## 🏗️ Project Structure
+
+
+
+```text
+
+Full Stack Project/
+
+├── campuspluse/       # Spring Boot backend
+
+│   ├── src/
+
+│   └── pom.xml
+
+├── react-app1/        # React frontend
+
+│   ├── public/
+
+│   ├── src/
+
+│   └── package.json
+
+└── README.md
+
+```
+
+
+
+\## ⚙️ Prerequisites
+
+
+
+\- Java JDK
+
+\- Eclipse IDE
+
+\- Node.js and npm
+
+\- MySQL Server
+
+\- Git
+
+
+
+\## 🚀 How to Run the Project
+
+
+
+\### 1. Configure MySQL
+
+
+
+\- Start the MySQL server.
+
+\- Create the database specified in the backend configuration.
+
+\- Verify the database URL, username, and password in `application.properties`.
+
+
+
+\### 2. Run the Spring Boot Backend
+
+
+
+1\. Open Eclipse IDE.
+
+2\. Import `campuspluse` as an existing Maven project.
+
+3\. Check the database configuration.
+
+4\. Run `CampuspluseApplication.java` as a Java application.
+
+5\. Confirm that the backend starts successfully.
+
+
+
+The current development setup uses port `9898`.
+
+
+
+\### 3. Run the React Frontend
+
+
+
+Open a terminal in the `react-app1` folder and run:
+
+
+
+```bash
+
+npm install
+
+npm start
+
+```
+
+
+
+The React application commonly starts at `http://localhost:3000`.
+
+
+
+Ensure that the frontend API configuration points to the running Spring Boot backend.
+
+
+
+\## 🔗 GitHub Repository
+
+
+
+\[AcadPluse – Source Code](https://github.com/swathipuli15/testproject1)
+
+
+
+\## 🔮 Future Enhancements
+
+
+
+\- Student performance and academic insights dashboard.
+
+\- Role-based access for students and administrators.
+
+\- Real-time resource availability.
+
+\- Booking conflict validation.
+
+\- Reports and analytics for academic administration.
+
+\- Improved search and filtering features.
+
+
+
+\## 👩‍💻 Project Purpose
+
+
+
+AcadPluse demonstrates full-stack application development using Java, Spring Boot, React.js, REST APIs, and MySQL for student intelligence and academic administration.
+
+
+
