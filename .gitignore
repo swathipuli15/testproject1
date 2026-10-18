@@ -1,0 +1,20 @@
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+
+# Spring Boot / Java
+backend/target/
+backend/bin/
+backend/.settings/
+
+# IDE
+.classpath
+.project
+.settings/
+
+# Secrets
+.env
+application-local.properties
